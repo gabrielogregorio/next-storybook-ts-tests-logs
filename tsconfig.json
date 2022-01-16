@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/base/*": ["src/components/base/*"],
+      "@/layouts/*": ["src/components/layouts/*"],
+      "@/widgets/*": ["src/components/widgets/*"],
+
+      "@/schemas/*": ["src/core/schemas/*"],
+      "@/services/*": ["src/core/services/*"],
+      "@/helpers/*": ["src/core/helpers/*"],
+      "@/hooks/*": ["src/core/hooks/*"],
+      "@/interfaces/*": ["src/core/interfaces/*"],
+
+      "@/pages/*": ["src/pages/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/mocks/*": ["src/tests/mocks/*"]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

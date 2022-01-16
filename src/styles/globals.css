@@ -1,0 +1,23 @@
+:root {
+  --z-drop-down: 999;
+  --z-dropdown-overlay: 998;
+  --color-bg: #0f0f0f;
+  --color-secondary-bg: #333;
+  --color: #ddd;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+body > div {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+}

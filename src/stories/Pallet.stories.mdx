@@ -1,0 +1,27 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+
+import { colors } from '../core/theme/palette';
+
+<Meta title="colors" />
+
+# Colors
+
+Our colors using in project
+
+<ColorPalette>
+  <ColorItem title="primary" subtitle="theme.colors.primary" colors={[colors.primary.default]} />
+  <ColorItem title="secondary" subtitle="theme.colors.secondary" colors={[colors.secondary.default]} />
+  <ColorItem title="success" subtitle="theme.colors.success" colors={[colors.success.default]} />
+  <ColorItem title="danger" subtitle="theme.colors.danger" colors={[colors.danger.default]} />
+  <ColorItem title="warning" subtitle="theme.colors.warning" colors={[colors.warning.default]} />
+  <ColorItem title="info" subtitle="theme.colors.info" colors={[colors.info.default]} />
+
+  <ColorItem
+    title="primary variants"
+    subtitle="theme.colors.primary"
+    colors={{
+      '100': colors.primary[100],
+      '200': colors.primary[200],
+      '300': colors.primary[300]
+    }} />
+</ColorPalette>

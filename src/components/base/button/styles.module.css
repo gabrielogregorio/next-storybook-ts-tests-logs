@@ -1,0 +1,13 @@
+.button {
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  background-color: #56595c;
+  border-radius: 0.5rem;
+  border: 1px solid #6a6c6e;
+}
+.Button--small {
+  padding: 0.2rem 1rem;
+}

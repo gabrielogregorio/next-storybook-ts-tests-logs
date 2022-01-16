@@ -1,0 +1,9 @@
+.container {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+
+.container__article {
+  flex: 1;
+}

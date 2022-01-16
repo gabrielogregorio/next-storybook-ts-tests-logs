@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  padding: 1rem;
+  background-color: #2d333b;
+  border: none;
+  border-bottom: 1px solid #56595c;
+  margin-bottom: 1rem;
+}
+
+.header__base {
+  flex: 1;
+  display: flex;
+}
+
+.header__profile {
+}
+
+.header__button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
