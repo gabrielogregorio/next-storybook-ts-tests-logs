@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
+
+This project serves to study the most modern technologies of nextjs, such as typescript, storybook, tests and logs
 
 ## Getting Started
 
-First, run the development server:
+### Install
+
+for run project, run command bellow
+
+```bash
+yarn install
+```
+
+### Run project
+
+for run project, run command bellow
 
 ```bash
 yarn dev
@@ -10,9 +22,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Storybook
+## Run storybook
 
-for run storybook, use command bellow
+For run storybook, run command bellow
 
 ```bash
 yarn storybook
